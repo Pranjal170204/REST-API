@@ -1,0 +1,10 @@
+GET/users-render HTML doc
+GET/api/users-list all users Json
+
+GET?users/1-Get the user with id_1
+ 
+POST/users-Create new user
+
+PATCH/users/1-Edit the user with id_1
+
+DELETE/users/1-Delete the user with id_1
