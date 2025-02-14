@@ -2,3 +2,10 @@ Fri Feb 14 2025 12:01:57 GMT+0530 (India Standard Time) : GET : /api/users/1001
 Fri Feb 14 2025 12:02:04 GMT+0530 (India Standard Time) : GET : /api/users/1002
 
 
+Fri Feb 14 2025 12:20:16 GMT+0530 (India Standard Time) : GET : /api/users/1001
+Fri Feb 14 2025 12:20:38 GMT+0530 (India Standard Time) : GET : /api/users/
+Fri Feb 14 2025 12:51:53 GMT+0530 (India Standard Time) : POST : /api/users/
+Fri Feb 14 2025 12:52:36 GMT+0530 (India Standard Time) : POST : /api/users/
+Fri Feb 14 2025 12:55:23 GMT+0530 (India Standard Time) : GET : /api/users/20000
+Fri Feb 14 2025 12:55:34 GMT+0530 (India Standard Time) : GET : /api/users/20
+Fri Feb 14 2025 13:04:23 GMT+0530 (India Standard Time) : DELETE : /api/users/20

@@ -8,3 +8,23 @@ POST/users-Create new user
 PATCH/users/1-Edit the user with id_1
 
 DELETE/users/1-Delete the user with id_1
+
+
+http headers--> extra info about request/response 
+
+network packets is created with every res and req which contains data inside  
+and also extra info in headers about the packets which is also known as metadata
+
+http response status codes--> indicates whether a  specific http request has been successfully completed.
+
+1XX-> Informational response
+2XX-> Successful response
+3XX-> redirection messsages
+4XX-> client error messsages
+5XX-> Server error messsages
+
+
+
+
+
+
