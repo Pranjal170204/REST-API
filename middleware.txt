@@ -1,0 +1,13 @@
+Middleware-->req first goes to Middleware and it processes the request and then forward the req to next middleware or req handler function at end
+which sends response back to client
+
+-->middleware can also revert back reqs to client due to some reasons
+
+-->functions of middleware
+1--Execute any code
+2--make changes to req and res objects
+3--End the req-res cycle
+4--Call the middleware function in stack
+
+
+req obj is available to next middleware also

@@ -3,9 +3,23 @@ const app=express()
 const PORT=8000;
 const fs=require('fs')
 const users=require('./MOCK_DATA.json')
-//ROUTES
+//middlewares
 app.use(express.urlencoded({extended:false}))
 
+app.use((req,res,next)=>{
+    console.log("Hello from middleware 1") // if not used next() ,it will hold the req and neither it will send response back nor call next middlware or req handler function
+    
+    fs.appendFile('log.txt',`${new Date()} : ${req.method} : ${req.path}\n`,(err,data)=>{
+        next(); 
+    })
+
+    //res.json({msg:"ola from middleware 1"})     //will send response without going to req handler function
+    
+})
+
+
+
+//routes
 app.get('/api/users',(req,res)=>{
     return res.json(users)
 })
